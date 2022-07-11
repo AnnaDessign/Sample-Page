@@ -1,0 +1,438 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    @font-face {
+        font-family: 'poppinsextralight';
+        src: url('fonts/poppins-extralight-webfont.woff2') format('woff2'), url('fonts/poppins-extralight-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: 'poppinsbold';
+        src: url('fonts/poppins-bold-webfont.woff2') format('woff2'), url('fonts/poppins-bold-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: 'poppinssemibold';
+        src: url('fonts/poppins-semibold-webfont.woff2') format('woff2'), url('fonts/poppins-semibold-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: 'poppinsmedium';
+        src: url('fonts/poppins-medium-webfont.woff2') format('woff2'), url('fonts/poppins-medium-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: 'poppinsregular';
+        src: url('fonts/poppins-regular-webfont.woff2') format('woff2'), url('fonts/poppins-regular-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    body {
+        font-family: 'poppinsmedium', sans-serif;
+        font-size: 24px;
+        color: #0D0D0D;
+        background-color: #FFFAF8;
+    }
+    
+    .container {
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+    
+    .header_mobile {
+        visibility: hidden;
+    }
+    
+    .header__menu {
+        position: relative;
+    }
+    
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    
+    .header__content {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 30px;
+    }
+    
+    .header__logo {
+        font-family: 'poppinssemibold', sans-serif;
+        letter-spacing: 12px;
+        text-transform: uppercase;
+        color: #0D0D0D;
+    }
+    
+    .header__menu {
+        position: relative;
+    }
+    
+    .header__logo {
+        text-decoration: none;
+    }
+    
+    .navbar-brand {
+        font-family: 'poppinssemibold', sans-serif;
+        letter-spacing: 12px;
+        text-transform: uppercase;
+        color: #FFFAF8;
+    }
+    
+    .header__logo:hover,
+    .first__projects:hover,
+    .header__link:hover {
+        color: #0D0D0D;
+        text-decoration: underline #0D0D0D;
+    }
+    
+    .header__link {
+        margin-left: 50px;
+        text-decoration: none;
+        color: #0D0D0D;
+    }
+    
+    .footer__h3 {
+        font-family: 'poppinsextralight', sans-serif;
+        font-size: 48px;
+        color: #0D0D0D;
+        padding-top: 140px;
+        border-top: 3px solid #CBCBCB;
+    }
+    
+    .footer__img {
+        width: 76px;
+        height: 54px;
+    }
+    
+    .footer__link {
+        display: flex;
+        gap: 20px;
+        align-items: baseline;
+    }
+    
+    .footer__text {
+        margin-top: 40px;
+        width: 774px
+    }
+    
+    .footer_socials {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 80px;
+        margin-bottom: 140px;
+    }
+    
+    .footer__img2 {
+        width: 31px;
+        height: 22px;
+    }
+    
+    .privacy-policy-h1 {
+        margin-top: 40px;
+    }
+    
+    .privacy-policy-h1,
+    .privacy-policy-p {
+        margin-bottom: 40px;
+    }
+    
+    .footer__mail,
+    .h2 {
+        font-family: 'poppinssemibold', sans-serif;
+        font-size: 64px;
+        color: #0D0D0D;
+    }
+    
+    .footer__link {
+        text-decoration: none;
+    }
+    
+    .cookie_policy,
+    .footer__link:hover {
+        text-decoration: underline #0D0D0D;
+    }
+    
+    .cookie_policy,
+    .footer__h4 {
+        font-family: 'poppinssemibold', sans-serif;
+        color: #0D0D0D;
+    }
+    
+    .cookie_policy:hover {
+        color: #0D0D0D;
+    }
+    
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    
+    @media (max-width: 1350px) {
+        .container-fluid {
+            padding: 0 24px;
+        }
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+        .navbar-brand {
+            font-size: 20px;
+        }
+        .header__content {
+            visibility: hidden;
+        }
+        .header_mobile {
+            visibility: visible;
+        }
+        .box1 {
+            display: none;
+        }
+        .first__h1 {
+            max-width: 600px;
+            font-size: 54px;
+        }
+        .first__h4 {
+            font-size: 20px;
+        }
+        .about__img1 {
+            margin-top: 40px;
+            max-width: 378px;
+        }
+        .about__img2 {
+            max-width: 378px;
+            width: 100%;
+        }
+        .about__text {
+            max-width: 430px;
+        }
+        .decor {
+            width: 250px;
+            height: 250px;
+        }
+        .about__img3 {
+            max-width: 300px;
+            height: 100%;
+        }
+        .projects__h2,
+        .h2,
+        .footer__mail {
+            font-size: 48px;
+        }
+        .skills__title,
+        .about__content,
+        .goal__title,
+        .projects__h2 {
+            margin-top: 100px;
+        }
+        .projects__h4,
+        .projects__text2,
+        .skills__h4,
+        .projects__text,
+        .text_base,
+        .footer__text,
+        .footer_socials {
+            font-size: 20px;
+        }
+        .goal__title {
+            display: block;
+        }
+        .goal__h2 {
+            max-width: 100%;
+            height: 100%;
+            font-size: 48px;
+        }
+        .goal__text {
+            margin-top: 50px;
+            font-size: 20px;
+        }
+        .projects__link {
+            padding-bottom: 20px;
+        }
+        .h3,
+        .footer__h3 {
+            font-size: 36px;
+        }
+        .footer__h3 {
+            margin-top: 100px;
+        }
+        .footer_socials {
+            margin-bottom: 100px;
+        }
+        .footer__img {
+            max-width: 45px;
+            height: 100%;
+        }
+    }
+    
+    @media (max-width: 940px) {
+        .container-fluid {
+            padding: 0 24px;
+        }
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+        .header__menu {
+            display: none;
+        }
+        .header_mobile {
+            visibility: visible;
+        }
+        .navbar {
+            padding-top: 20px;
+        }
+        .navbar-light .navbar-toggler {
+            color: #000000;
+            border-color: #FFFAF8;
+            background-color: #FFFAF8;
+        }
+        .navbar-light .navbar-toggler-icon {
+            background-image: url(images/menu_icon.svg);
+        }
+        .about__text {
+            max-width: 100%;
+        }
+        .about__img2,
+        .about__img3 {
+            display: none;
+        }
+        .decor {
+            padding-bottom: 30px;
+            top: -200px;
+        }
+        .projects__gallery {
+            margin-top: 40px;
+            max-width: 85%;
+        }
+        .carousel-control-next {
+            right: -15%;
+        }
+        .carousel-control-prev {
+            left: -15%;
+        }
+        .footer__mail {
+            font-size: 40px;
+        }
+        .footer__h3 {
+            margin-top: 50px;
+        }
+        .footer__text {
+            width: 100%;
+        }
+        .footer_socials {
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+        }
+        .footer__h4 {
+            width: 122px;
+        }
+        .footer__img {
+            max-width: 35px;
+        }
+    }
+    
+    @media (max-width: 425px) {
+        .container-fluid {
+            padding: 0 24px;
+        }
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+        .navbar-brand {
+            font-size: 16px;
+            letter-spacing: 6px;
+        }
+        .h2,
+        .first__h1,
+        .goal__h2,
+        .projects__h2,
+        .footer__h3 {
+            font-size: 28px;
+        }
+        .privacy-policy-p,
+        .first__h4,
+        .projects__h4,
+        .skills__h4,
+        .projects__text,
+        .text_base,
+        .footer__text,
+        .footer_socials,
+        .goal__text,
+        .footer__mail {
+            font-size: 18px;
+        }
+        .about__img1 {
+            max-width: 100%;
+        }
+        .decor {
+            width: 200px;
+            height: 200px;
+            top: -130px;
+            padding-bottom: 50px;
+        }
+        .skills__link {
+            display: none;
+        }
+        .skills__list {
+            display: block;
+            margin-top: 50px;
+        }
+        .skills__list1,
+        .skills__list2,
+        .skills__list3 {
+            width: 100%
+        }
+        .skills_h3_third,
+        .skills_h3_first {
+            height: 130px;
+            margin-bottom: 0;
+        }
+        .skills_h3_second {
+            height: 130px;
+            border-bottom: none;
+            margin-bottom: 0;
+        }
+        .projects__text {
+            width: 100%;
+            text-align: left;
+            margin-top: 40px;
+        }
+        .projects__h2 {
+            justify-content: start;
+        }
+        .projects__link {
+            margin-top: 20px;
+        }
+        .projects__text2 {
+            font-size: 14px;
+        }
+        .h3,
+        .footer__h4 {
+            font-size: 22px;
+        }
+        .first__img,
+        .projects__img2,
+        .footer__img2 {
+            width: 23px;
+            height: 16px;
+        }
+        .footer__img {
+            display: none;
+        }
+    }
